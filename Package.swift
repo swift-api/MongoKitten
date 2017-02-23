@@ -12,7 +12,7 @@ var package = Package(
         .Package(url: "https://github.com/OpenKitten/BSON.git", majorVersion: 4, minor: 1),
 
         // Authentication
-        .Package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", Version(0,6,7)),
+        .Package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", versions: Version(0, 6, 0) ..< Version(0, 7, 0)),
         
         // Provides sockets
         .Package(url: "https://github.com/vapor/socks.git", majorVersion: 1),
